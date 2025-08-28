@@ -2,7 +2,7 @@
 
 LuxCamp is a modern glamping booking website that brings the comfort of hotels into the beauty of nature. Users can easily explore cabins, check details, and book their perfect getaway.
 
-# ✨ Features
+## ✨ Features
 
 🏕️ Explore a variety of cabins with photos and descriptions
 
