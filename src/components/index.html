@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LuxCamp</title>
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+      .font-bodoni {
+        font-family: "Bodoni Bd BT", serif;
+      }
+      .font-dm-serif {
+        font-family: "DM Serif Display", serif;
+      }
+    </style>
+  </head>
+  <body class="bg-white text-gray-900 min-h-screen pb-32">
+    <div
+      class="w-full max-w-[1400px] mx-auto px-5 sm:px-6 md:px-8 lg:px-10 xl:px-10 2xl:px-5"
+    >
+      <!-- Navbar -->
+      <header
+        class="w-full py-4 flex justify-between items-center"
+        data-aos="fade-down"
+      >
+
+      <div class="md:hidden">
+        <button id="menu-btn" class="text-3xl focus:outline-none">
+          &#9776;
+        </button>
+      </div>
+
+        <h1 class="text-3xl font-bold tracking-[3px] font-bodoni">
+          <span class="text-[#B98C6B]">LUX</span
+          ><span class="text-[#04403e]">CAMP</span>
+        </h1>
+
+        <nav class="hidden md:flex gap-6 text-lg font-medium">
+          <a href="#" class="text-black hover:text-[#04403e] transition">Home</a>
+          <a href="#" class="text-black hover:text-[#04403e] transition">Tents</a>
+          <a href="#" class="text-black hover:text-[#04403e] transition">Activities</a>
+          <a href="#" class="text-black hover:text-[#04403e] transition">Gallery</a>
+          <a href="#" class="text-black hover:text-[#04403e] transition">Book</a>
+        </nav>
+
+
+        <div
+          id="mobile-menu"
+          class="md:hidden fixed top-0 left-0 w-full h-full bg-white flex flex-col items-center justify-center gap-6 text-xl font-medium z-50 hidden"
+        >
+          <button id="close-menu" class="absolute top-4 right-6 text-3xl">
+            &times;
+          </button>
+          <a href="#" class="text-black hover:text-[#04403e] transition">Home</a>
+          <a href="#" class="text-black hover:text-[#04403e] transition">Tents</a>
+          <a href="#" class="text-black hover:text-[#04403e] transition">Activities</a>
+          <a href="#" class="text-black hover:text-[#04403e] transition">Gallery</a>
+          <a href="#" class="text-black hover:text-[#04403e] transition">Book</a>
+        </div>
+
+
+        <a
+          href="#booking"
+          class="bg-[#04403e] text-white rounded-lg px-6 py-2 text-lg font-semibold hover:bg-[#05514f] transition shadow-md"
+        >
+          Book Now
+        </a>
+      </header>
+
+<!-- Hero Section -->
+<section class="relative mt-10" data-aos="zoom-in">
+  <img
+    src="img/hero-img.png"
+    alt="LuxCamp"
+    class="w-full h-[60vh] sm:h-[70vh] md:h-auto rounded-[50px] object-cover shadow-[0_30px_60px_-15px_rgba(0,0,0,0.25)]"
+
+  />
+
+  <div
+    class="absolute inset-0 flex flex-col justify-center items-center md:items-start px-4 sm:px-6 md:px-10 gap-6 text-white text-center md:text-left"
+  >
+    <h2
+      class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-dm-serif max-w-[90%] sm:max-w-3xl leading-tight"
+      data-aos="fade-right"
+    >
+      Experience Nature in Luxury
+    </h2>
+
+    <p
+      class="text-base sm:text-lg md:text-xl max-w-[90%] sm:max-w-2xl leading-relaxed"
+      data-aos="fade-left"
+    >
+      Wake up to the breeze of pine trees and the sound of a flowing river.
+      LuxCamp brings you into touch with nature without sacrificing comfort.
+    </p>
+
+    <a
+      href="#booking"
+      class="mt-6 inline-block bg-white text-black text-base sm:text-lg md:text-xl font-semibold px-6 py-2 rounded-xl shadow-lg hover:bg-gray-200 transition"
+      data-aos="fade-up"
+    >
+      Book Now
+    </a>
+
+    <div class="mt-8" data-aos="fade-up">
+      <p class="text-white text-sm sm:text-base md:text-lg font-medium">
+        Available for
+      </p>
+      <img
+        src="img/traveloka-logo.png"
+        alt="Available options"
+        class="mt-2 w-28 sm:w-36 md:w-48"
+      />
+    </div>
+  </div>
+</section>
+
+
+      <!-- About Section -->
+      <section class="mt-[140px]">
+        <div
+          class="w-full max-w-[1400px] mx-auto px-5 sm:px-6 md:px-8 lg:px-10 xl:px-10 2xl:px-5"
+        >
+          <div
+            class="flex flex-col lg:flex-row items-start gap-10"
+            data-aos="fade-up"
+          >
+            <div class="flex-1 flex flex-col gap-8">
+              <div
+                class="text-teal-800 text-2xl font-normal font-['Playfair_Display']"
+                data-aos="fade-right"
+              >
+                About us
+              </div>
+
+              <div
+                class="max-w-[628px] text-emerald-900 text-6xl md:text-7xl font-normal font-dm-serif leading-[70px]"
+                data-aos="fade-right"
+              >
+                Glamping in the Heart of Nature
+              </div>
+
+              <div
+                class="max-w-[520px] text-black text-xl font-normal font-inter leading-relaxed tracking-widest"
+                data-aos="fade-left"
+              >
+                Enjoy a good night's sleep amidst the gurgling river and lush pine
+                forest. LuxCamp combines the natural nuances of Pangalengan with
+                complete facilities and warm service, making every night feel like
+                coming home.
+              </div>
+
+              <div class="flex gap-6 mt-4">
+                <a
+                  href="#booking"
+                  class="w-48 h-14 bg-teal-800 rounded-[20px] shadow-md flex items-center justify-center text-white text-xl font-semibold font-montserrat transition duration-300 hover:bg-white hover:text-teal-800 hover:border hover:border-teal-800"
+                  data-aos="zoom-in"
+                >
+                  Book Now
+                </a>
+                <a
+                  href="#cabins"
+                  class="w-48 h-14 bg-white rounded-[20px] shadow-md flex items-center justify-center text-teal-800 text-xl font-semibold font-montserrat transition duration-300 hover:bg-teal-800 hover:text-white hover:border hover:border-teal-800"
+                  data-aos="zoom-in"
+                >
+                  See all Cabins
+                </a>
+              </div>
+
+              <div class="flex gap-10 mt-8">
+                <div data-aos="fade-up">
+                  <div class="flex items-baseline">
+                    <span
+                      class="text-emerald-900 text-5xl font-bold font-inter"
+                      >20</span
+                    >
+                    <span
+                      class="text-green-700 text-5xl font-medium font-montserrat"
+                      >+</span
+                    >
+                  </div>
+                  <div class="text-black text-xl font-normal font-inter">
+                    Service & Activities
+                  </div>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="200">
+                  <div class="flex items-baseline">
+                    <span
+                      class="text-emerald-900 text-5xl font-bold font-inter"
+                      >10K</span
+                    >
+                    <span
+                      class="text-green-700 text-5xl font-medium font-montserrat"
+                      >+</span
+                    >
+                  </div>
+                  <div class="text-black text-xl font-normal font-inter">
+                    Happy Campers
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex-1" data-aos="fade-left">
+              <img
+                src="img/about-img.png"
+                alt="About"
+                class="w-full h-auto rounded-[50px] shadow-lg mx-auto"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <!-- Why Us? Section -->
+<section class="mt-[140px] mb-32 px-5 sm:px-6 md:px-8 lg:px-10 xl:px-10 2xl:px-5">
+  <div class="max-w-[1400px] mx-auto flex flex-col gap-10">
+
+<div class="flex flex-col md:flex-row md:items-center md:justify-between" data-aos="fade-up">
+  <div>
+    <p class="text-teal-800 text-xl font-['Playfair_Display']">Why us?</p>
+    <h2 class="text-emerald-900 text-4xl md:text-6xl font-dm-serif mt-2">Why staying in our cabins?</h2>
+  </div>
+  <div class="flex gap-4 mt-6 md:mt-0" data-aos="zoom-in" data-aos-delay="200">
+    <a href="#booking" class="px-6 py-3 bg-teal-800 text-white rounded-[20px] text-base font-semibold font-['Montserrat'] shadow-md hover:bg-white hover:text-teal-800 hover:border hover:border-teal-800 transition">
+      Book Now
+    </a>
+    <a href="#cabins" class="px-6 py-3 bg-white text-teal-800 rounded-[20px] text-base font-semibold font-['Montserrat'] shadow-md hover:bg-teal-800 hover:text-white hover:border hover:border-teal-800 transition">
+      See all Cabins
+    </a>
+  </div>
+</div>
+
+
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-8">
+
+      <div class="flex flex-col gap-3" data-aos="fade-up" data-aos-delay="0">
+        <img src="img/icon/feature1.png" alt="Luxury Icon" class="w-16 h-16 object-contain" />
+        <h3 class="text-2xl font-bold font-inter">Luxury in the Wilderness</h3>
+        <p class="text-black/80 text-lg font-inter leading-relaxed">
+          Our tents are equipped with plush beds, private bathrooms, and elegant interiors — all set within a tranquil forest.
+        </p>
+      </div>
+
+      <div class="flex flex-col gap-3" data-aos="fade-up" data-aos-delay="100">
+        <img src="img/icon/feature2.png" alt="Experience Icon" class="w-16 h-16 object-contain" />
+        <h3 class="text-2xl font-bold font-inter">Unique Outdoor Experiences</h3>
+        <p class="text-black/80 text-lg font-inter leading-relaxed">
+          From guided forest walks and tea garden tours to campfire nights, each experience is curated to create lasting memories.
+        </p>
+      </div>
+
+      <div class="flex flex-col gap-3" data-aos="fade-up" data-aos-delay="200">
+        <img src="img/icon/feature3.png" alt="Dining Icon" class="w-16 h-16 object-contain" />
+        <h3 class="text-2xl font-bold font-inter">Full-Board Dining</h3>
+        <p class="text-black/80 text-lg font-inter leading-relaxed">
+          Enjoy delicious local and international meals, served fresh from breakfast to dinner, without leaving the camp.
+        </p>
+      </div>
+
+      <div class="flex flex-col gap-3" data-aos="fade-up" data-aos-delay="300">
+        <img src="img/icon/feature4.png" alt="Privacy Icon" class="w-16 h-16 object-contain" />
+        <h3 class="text-2xl font-bold font-inter">Privacy & Serenity</h3>
+        <p class="text-black/80 text-lg font-inter leading-relaxed">
+          Escape the noise. Each cabin is spaced for total privacy, allowing you to fully relax and recharge in peace.
+        </p>
+      </div>
+
+      <div class="flex flex-col gap-3" data-aos="fade-up" data-aos-delay="400">
+        <img src="img/icon/feature5.png" alt="Nature Icon" class="w-16 h-16 object-contain" />
+        <h3 class="text-2xl font-bold font-inter">Surrounded by Nature</h3>
+        <p class="text-black/80 text-lg font-inter leading-relaxed">
+          Wake up to the sounds of birds and the gentle river stream. Every stay is immersed in pine forests and fresh mountain air.
+        </p>
+      </div>
+
+      <div class="flex flex-col gap-3" data-aos="fade-up" data-aos-delay="500">
+        <img src="img/icon/feature6.png" alt="Access Icon" class="w-16 h-16 object-contain" />
+        <h3 class="text-2xl font-bold font-inter">Easy Access from the City</h3>
+        <p class="text-black/80 text-lg font-inter leading-relaxed">
+          Just 1.5 hours from Bandung. A scenic ride brings you straight into nature — no difficult trekking required.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="w-[1261px] h-[817px] relative">
+  <!-- Box Backgrounds -->
+  <div class="w-[610px] h-[580px] left-[21px] top-[237px] absolute bg-slate-50 rounded-[20px] shadow-[0px_-3px_5px_0px_rgba(0,0,0,0.09)] shadow-[0px_12px_13px_0px_rgba(0,0,0,0.17)] shadow-[0px_4px_6px_0px_rgba(0,0,0,0.12)] shadow-[0px_-12px_30px_0px_rgba(0,0,0,0.12)] shadow-[0px_54px_55px_0px_rgba(0,0,0,0.25)]"></div>
+  <div class="w-[610px] h-[580px] left-[651px] top-[237px] absolute bg-slate-50 rounded-[20px] shadow-[0px_-3px_5px_0px_rgba(0,0,0,0.09)] shadow-[0px_12px_13px_0px_rgba(0,0,0,0.17)] shadow-[0px_4px_6px_0px_rgba(0,0,0,0.12)] shadow-[0px_-12px_30px_0px_rgba(0,0,0,0.12)] shadow-[0px_54px_55px_0px_rgba(0,0,0,0.25)]"></div>
+
+  <!-- Judul & Harga -->
+  <div class="w-80 h-12 left-[36px] top-[622px] absolute text-black text-2xl font-bold font-['Inter'] leading-[50px]">Dome Tent</div>
+  <div class="w-80 h-12 left-[666px] top-[622px] absolute text-black text-2xl font-bold font-['Inter'] leading-[50px]">Snail Tent</div>
+  <div class="w-36 h-12 left-[36px] top-[742px] absolute text-green-700 text-2xl font-bold font-['Inter'] leading-[50px]">Rp 973.419</div>
+  <div class="w-40 h-12 left-[666px] top-[742px] absolute text-green-700 text-2xl font-bold font-['Inter'] leading-[50px]">Rp 1.146.858</div>
+
+  <!-- Deskripsi -->
+  <div class="w-96 h-14 left-[37px] top-[673px] absolute text-black/80 text-xl font-normal font-['Inter'] leading-loose">A stylish dome with panoramic views. Perfect for couples.</div>
+  <div class="w-96 h-14 left-[667px] top-[673px] absolute text-black/80 text-xl font-normal font-['Inter'] leading-loose">Unique curved tent by the river. Compact and cozy.</div>
+
+  <!-- Gambar -->
+  <img class="w-[590px] h-96 left-[31px] top-[247px] absolute rounded-2xl shadow-[0px_3px_7px_-3px_rgba(0,0,0,0.30)] shadow-[0px_6px_12px_-2px_rgba(50,50,93,0.25)]" src="img/dometent-img.png" alt="Dome Tent" />
+  <div class="w-[590px] h-96 left-[31px] top-[247px] absolute bg-black/20 rounded-2xl"></div>
+
+  <img class="w-[590px] h-96 left-[661px] top-[247px] absolute rounded-2xl shadow-[0px_3px_7px_-3px_rgba(0,0,0,0.30)] shadow-[0px_6px_12px_-2px_rgba(50,50,93,0.25)]" src="img/snailtent-img.png" alt="Snail Tent" />
+  <div class="w-[590px] h-96 left-[661px] top-[247px] absolute bg-black/20 rounded-2xl"></div>
+
+  <!-- Icon 2 Guest -->
+  <div class="w-32 h-11 left-[51px] top-[546px] absolute bg-slate-50 rounded-[20px] shadow-md">
+    <div class="w-16 h-5 left-[56px] top-[13px] absolute text-teal-800 text-base font-semibold font-['Montserrat']">2 Guest</div>
+    <div class="w-9 h-9 left-[10px] top-[5px] absolute">
+      <img src="img/icon/bed.png" alt="Bed Icon" class="w-8 h-8" />
+    </div>
+  </div>
+
+  <!-- Icon Area -->
+  <div class="w-32 h-11 left-[202px] top-[546px] absolute bg-slate-50 rounded-[20px] shadow-md">
+    <div class="w-16 h-5 left-[56px] top-[13px] absolute text-teal-800 text-base font-semibold font-['Montserrat']">20.0 m²</div>
+    <div class="w-9 h-9 left-[10px] top-[5px] absolute">
+      <img src="img/icon/jam_set-square.png" alt="Area Icon" class="w-8 h-8" />
+    </div>
+  </div>
+
+  <!-- Snail Tent Icons -->
+  <div class="w-32 h-11 left-[681px] top-[546px] absolute bg-slate-50 rounded-[20px] shadow-md">
+    <div class="w-16 h-5 left-[56px] top-[13px] absolute text-teal-800 text-base font-semibold font-['Montserrat']">2 Guest</div>
+    <div class="w-9 h-9 left-[10px] top-[5px] absolute">
+      <img src="img/icon/bed.png" alt="Bed Icon" class="w-8 h-8" />
+    </div>
+  </div>
+  <div class="w-32 h-11 left-[832px] top-[546px] absolute bg-slate-50 rounded-[20px] shadow-md">
+    <div class="w-16 h-5 left-[56px] top-[13px] absolute text-teal-800 text-base font-semibold font-['Montserrat']">20.0 m²</div>
+    <div class="w-9 h-9 left-[10px] top-[5px] absolute">
+      <img src="img/icon/jam_set-square.png" alt="Area Icon" class="w-8 h-8" />
+    </div>
+  </div>
+
+  <!-- Header -->
+  <div class="w-40 h-16 left-0 top-0 absolute text-center text-teal-800 text-xl font-normal font-['Playfair_Display'] leading-[100px]">Our Cabins</div>
+  <div class="w-[1112px] h-36 left-[18px] top-[71px] absolute text-emerald-900 text-6xl font-normal font-['DM_Serif_Display'] leading-[70px]">Stay Under the Stars, Wrapped in Comfort</div>
+
+  <!-- Navigation Arrows -->
+  <img class="w-14 h-14 left-[1162px] top-[211px] absolute rotate-180 rounded-full border-2 border-black" src="img/icon/arrow-left.png" alt="Arrow Left" />
+  <img class="w-14 h-14 left-[1245px] top-[211px] absolute rounded-full bg-teal-800" src="img/icon/arrow-right.png" alt="Arrow Right" />
+</div>
+
+
+
+
+    <!-- Script -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true,
+        easing: 'ease-in-out',
+      });
+    </script>
+
+    <script>
+  const menuBtn = document.getElementById("menu-btn");
+  const mobileMenu = document.getElementById("mobile-menu");
+  const closeMenu = document.getElementById("close-menu");
+
+  menuBtn.addEventListener("click", () => {
+    mobileMenu.classList.remove("hidden");
+  });
+
+  closeMenu.addEventListener("click", () => {
+    mobileMenu.classList.add("hidden");
+  });
+</script>
+
+  </body>
+</html>
