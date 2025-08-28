@@ -14,7 +14,7 @@ LuxCamp is a modern glamping booking website that brings the comfort of hotels i
 
 🎨 Modern, clean, and nature-inspired user interface
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
  Next.js – Frontend
 
@@ -23,3 +23,9 @@ LuxCamp is a modern glamping booking website that brings the comfort of hotels i
  Tailwind CSS – Styling
 
  Vercel – Deployment
+
+## 🎨 UI/UX Preview  
+
+Here’s a preview of the LuxCamp landing page design:  
+
+![LuxCamp UI/UX Preview](./assets/INDEX%20-%20LUXCAMP.png)
