@@ -16,10 +16,10 @@ LuxCamp is a modern glamping booking website that brings the comfort of hotels i
 
 🛠️ Tech Stack
 
-Next.js – Frontend
+[![My Skills](https://skillicons.dev/icons?i=nextjs)](https://skillicons.dev) Next.js – Frontend
 
-Supabase – Database & Authentication
+[![My Skills](https://skillicons.dev/icons?i=supabase)](https://skillicons.dev) Supabase – Database & Authentication
 
-Tailwind CSS – Styling
+[![My Skills](https://skillicons.dev/icons?i=tailwind)](https://skillicons.dev) Tailwind CSS – Styling
 
-Vercel – Deployment
+[![My Skills](https://skillicons.dev/icons?i=vercel)](https://skillicons.dev) Vercel – Deployment
