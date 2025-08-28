@@ -28,4 +28,4 @@ LuxCamp is a modern glamping booking website that brings the comfort of hotels i
 
 Here’s a preview of the LuxCamp landing page design:  
 
-![LuxCamp UI/UX Preview](INDEX%20-%20LUXCAMP.png)
+![LuxCamp UI/UX Preview](bannerrm.png)
